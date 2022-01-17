@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/baseLayout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="Thin"
+            android:fontFamily="@font/hs"
+            android:textStyle="bold"
+            android:textColor="#2196F3"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSave"
+            android:layout_marginLeft="2dp"
+            android:text="Save"
+            android:fontFamily="@font/hs"
+            android:textStyle="bold"
+            android:textColor="#2196F3"/>
+
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/drawLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:background="#cccccc"
+            android:gravity="center">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnBlack"
+                android:textStyle="bold"
+                android:fontFamily="@font/hs"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:text="검정"
+                android:checked="true"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnRed"
+                android:textStyle="bold"
+                android:fontFamily="@font/hs"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:text="빨강"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnGreen"
+                android:textStyle="bold"
+                android:fontFamily="@font/hs"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:text="초록"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnBlue"
+                android:textStyle="bold"
+                android:fontFamily="@font/hs"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:text="파랑"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnYellow"
+                android:textStyle="bold"
+                android:fontFamily="@font/hs"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:text="노랑"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnGray"
+                android:textStyle="bold"
+                android:fontFamily="@font/hs"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:text="회색"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPink"
+                android:textStyle="bold"
+                android:fontFamily="@font/hs"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:text="분홍"/>
+
+        </RadioGroup>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/paintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLEAR"
+            android:fontFamily="@font/hs"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#03A9F4"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
